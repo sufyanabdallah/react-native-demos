@@ -1,9 +1,15 @@
-import { Text,View,StyleSheet, Image } from "react-native";    
+import { Text,View,StyleSheet, Image, Button } from "react-native";    
 
 const ProfileCardComponent = () =>{
     return(
         <View>
             <Image source={require("../assets/images/sufyan.jpg")} style={styles.imageStyle}/>
+            <Text>sufyan abdallah </Text>
+            <Text>i am a pogrammer i like pograming</Text>
+            <Button title="press me" onPress={()=>{alert("thank you for cheking my porfile")}
+
+            }/>
+            
         </View>
     )
 }
